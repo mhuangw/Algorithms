@@ -1,3 +1,5 @@
+// Checks if a string has all unique characters
+
 static boolean isUnique(String str) {
 	if(str == null) {
 		return null;
