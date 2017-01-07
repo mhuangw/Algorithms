@@ -1,5 +1,5 @@
 # Checks if a string has all unique characters
-def isUnique(str):
+def is_unique(str):
 	if str is None:
 		return True
 	# String is not unique if length exceeds number of ASCII characters
