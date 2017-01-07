@@ -7,7 +7,7 @@ static boolean isUnique(String str) {
 	if(str.length() > 128) {
 		return false;
 	}
-	// Array represents whether each ASCII character is in the string
+	// Array to check occurrence of each ASCII character in the string
 	boolean[] chars = new boolean[128];
 	for(int i = 0; i < str.length(); i++) {
 		int val = str.charAt(i);
