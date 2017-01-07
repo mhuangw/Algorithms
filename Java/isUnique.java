@@ -1,7 +1,7 @@
 // Checks if a string has all unique characters
 static boolean isUnique(String str) {
 	if(str == null) {
-		return null;
+		return true;
 	}
 	// String is not unique if length exceeds number of ASCII characters
 	if(str.length() > 128) {
