@@ -11,6 +11,6 @@ def first_unique(str):
 		else:
 			charCount[x] = 1
 	for y in str:
-		if charCount[y] = 1:
+		if charCount[y] == 1:
 			return y
 	return None
